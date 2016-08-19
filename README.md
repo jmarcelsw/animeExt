@@ -20,6 +20,6 @@ Features
 --------
 - [X] Gets Anime Info From Web Page
 - [X] Display Anime info in extension
-- [ ] stores anime info
-- [ ] looks for available link to Crunchyroll
-- [ ] displays Crunchyroll link in the cell
+- [ ] Stores anime info
+- [ ] Looks for available link to Crunchyroll
+- [ ] Displays Crunchyroll link in the cell
