@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Anime Extension",
+    "version": "0.0",
+
+    "browser_action": {
+        "default_title": "KATool",
+        "default_icon": "assets/animeIcon.png",
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [{
+        "matches": ["*://kissanime.to/Anime/*"],
+        "js": ["content.js"]
+    }],
+    "permissions": ["activeTab", "storage"],
+    "background": {
+        "persistent": true,
+        "scripts": ["background.js"]
+    }
+}

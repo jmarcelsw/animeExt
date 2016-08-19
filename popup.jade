@@ -1,0 +1,42 @@
+//output: popup.html
+doctype
+html
+  head
+     title
+     link(rel="stylesheet", type="text/css", href="styles/style.css")
+  body
+    //#notification this is a notification
+    #infotron(style="display: none;")
+      .infoAnimeImg
+        img.animeImg#animeImg(src="https://kissanime.to/Uploads/Etc/4-15-2016/4087605451458241052.jpg", alt="")
+      .info
+        .infoContent
+          .detailBox
+            span.detailInfo Name: &nbsp;
+            span.infoText.title#pageAnimeTitle Kabaneri of the Iron Fortress
+          .addBtn#saveAnime Add To Saved
+
+
+    .section#watching
+      .header Watching
+      .content
+        .cell
+            .1
+             span.animeName kissXsis &nbsp;
+            .2
+             span.animeLastEp Next Episode: Ep 4
+        .cell
+            .1
+             span.animeName School Days &nbsp;
+            .2
+             span.animeLastEp Next Episode: Ep 5
+    .section#queue
+      .header Queue
+      .content
+        .cell
+            span.animeName Boku No Pico
+        .cell
+            span.animeName One Piece
+
+    #text Made with <3 by j0nomar
+  script(type="application/javascript", src="popup.js")

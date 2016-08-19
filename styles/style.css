@@ -1,0 +1,91 @@
+body {
+    width: 390px;
+}
+#notification {
+    background-color: red;
+    width: 100%;
+    height: 30px;
+}
+.header {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: grey;
+    color: white;
+}
+.content {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.section {
+    font-size: 1.5em;
+}
+.cell {
+    height: 50px;
+    width: auto;
+}
+#infotron {
+
+}
+.info {
+    width: 55%;
+    width: auto;
+    float: left;
+    overflow: hidden;
+}
+.infoContent {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+.infoAnimeImg {
+    float: left;
+    width: 45%;
+    overflow: hidden;
+}
+.animeImg {
+    width: 100%;
+    height: auto;
+}
+.detailInfo {
+    font-weight: bold;
+}
+.detailBox {}
+.animeName {
+    font-weight: bold;
+}
+.animeLastEp {
+    font-size: 0.90em;
+}
+.addBtn {
+    border-top: 1px solid #0076bf;
+    background: #0099ff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0099ff), to(#0099ff));
+    background: -webkit-linear-gradient(top, #0099ff, #0099ff);
+    background: -moz-linear-gradient(top, #0099ff, #0099ff);
+    background: -ms-linear-gradient(top, #0099ff, #0099ff);
+    background: -o-linear-gradient(top, #0099ff, #0099ff);
+    padding: 7px 8px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    -webkit-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    -moz-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    text-shadow: rgba(0, 0, 0, .4) 0 1px 0;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+    width: 40%;
+}
+.addBtn:hover {
+    border-top-color: #0071bd;
+    background: #0071bd;
+    color: #ffffff;
+}
+.addBtn:active {
+    border-top-color: #46b7d9;
+    background: #46b7d9;
+}
